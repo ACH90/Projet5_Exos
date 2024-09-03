@@ -1,9 +1,7 @@
 //Votre code ici
 
 function add(a, b) {
-  return a + b;
+  return parseFloat(a) + parseFloat(b);
 }
 
-let result = add(3, 4);
-
-console.log(result);
+export default add;
